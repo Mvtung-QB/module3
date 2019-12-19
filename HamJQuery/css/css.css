@@ -1,0 +1,62 @@
+.boderbox{
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+    font: 15px/22.5px "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border: 1px solid rgba( 0, 0, 0, 0.2 );
+    border-radius: 5px;
+    background-color: #eee;
+    position: relative;
+
+}
+.entry-header{
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+    font: 15px/22.5px "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    display: block;
+}
+.entry-meta{
+    -webkit-font-smoothing: antialiased;
+    font: 15px/22.5px "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    color: #999;
+    font-size: 12px;
+    float: left;
+    position: relative;
+    left: 70%;
+}
+.category{
+    -webkit-font-smoothing: antialiased;
+    font: 15px/22.5px "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+    color: #999;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 4px;
+    background-color: #ddd;
+    border-radius: 5px;
+    align: right;
+}
+.entry-title{
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+    font: 15px/22.5px "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0 0 0.33em;
+    font-weight: 700;
+    font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif !important;
+    line-height: 26px;
+    font-size: 1.3em;
+    margin-bottom: 0;
+    text-shadow: 0 1px 1px #fff;
+    float: left;
+}
+.entry-summary{
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+    font: 15px/22.5px "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}

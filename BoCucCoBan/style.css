@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+}
+#theader{
+    position: fixed;
+    z-index: 1;
+}
+#tbody{
+    position: relative;
+    top: 250px;
+}
+#header{
+    width: 100%;
+    height: 200px;
+}
+#logo{
+    height: 200px;
+    width: 20%;
+    float: left;
+}
+#banner{
+    height: 200px;
+    width: 80%;
+    float: left;
+}
+#imglogo{
+    height: 200px;
+    width: 100%;
+}
+#imgbanner{
+    height: 200px;
+    width: 100%;
+}
+#navg{
+    background-color: bisque;
+    width: 100%;
+    height: 50px;
+}
+div ul span{
+    float: left;
+    padding: 10px;
+}
+#txtseach{
+    background: #ededed url("search.png") no-repeat 9px center ;
+    padding: 10px 10px 10px 10px;
+    border-radius: 40%;
+    align-items: center;
+    position: relative;
+    left: 50%;
+}
+#footer{
+    background-color: bisque;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+}
+
+#footerNote{
+    float: left;
+    font-family: "Times New Roman";
+    color: darkblue;
+}
+#botslide{
+    background-color: fuchsia;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    bottom: 0px;
+}
+#slide{
+    padding: 20px;
+}
+#navgfooter{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    left: 50%;
+
+}
+#slidemenu{
+    background-color: aquamarine;
+    width: 20%;
+    height: 600px;
+    float: left;
+}
+#quangcao{
+    float: left;
+    height: 700px;
+    width: 20%;
+
+    background-color: darkblue;
+}
+#main{
+    float: left;
+    width: 60%;
+    height: auto;
+}
+.box{
+    margin: 10px;
+    float: left;
+    padding: 10px;
+    height: 100px ;
+    width: 28%;
+    background-color: chartreuse;
+}
+.box1{
+    margin: 10px;
+    float: left;
+    padding: 10px;
+    height: 100px;
+    width: 45%;
+    background-color: chartreuse;
+}
