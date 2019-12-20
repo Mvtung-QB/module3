@@ -17,10 +17,9 @@ const son:person ={
     }
 };
 
-
 class thMan implements person{
-    public name:string;
-    public age:number;
+     name:string;
+     age:number;
     constructor(name:string,age:number){
         this.name= name;
         this.age= age;
@@ -33,6 +32,7 @@ class thMan implements person{
     }
 
 }
-const myname= new thMan("tung",27);
+let myname= new thMan("tung",27);
+
 console.log(myname.toString());
-console.log(son);
+console.log(son.name + son.age+  son.run());

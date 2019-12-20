@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a231d02-13d9-4bb7-a8fc-13f29f6f4b5c" name="Default Changelist" comment="" />
+    <list default="true" id="2a231d02-13d9-4bb7-a8fc-13f29f6f4b5c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/demo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo.ts" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,7 +14,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,7 +64,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="typescript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typescript" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -89,7 +111,9 @@
       <workItem from="1576658910481" duration="5046000" />
       <workItem from="1576718272332" duration="3865000" />
       <workItem from="1576723361774" duration="2979000" />
-      <workItem from="1576727269820" duration="755000" />
+      <workItem from="1576727269820" duration="1465000" />
+      <workItem from="1576742069936" duration="63000" />
+      <workItem from="1576748099481" duration="1358000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1576727335575</created>
@@ -102,7 +126,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12645000" />
+    <option name="totallyTimeSpent" value="14776000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -115,6 +139,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -191,6 +216,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.ts" />
+    <entry file="file://$PROJECT_DIR$/demo.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

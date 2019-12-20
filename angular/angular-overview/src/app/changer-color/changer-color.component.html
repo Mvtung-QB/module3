@@ -1,0 +1,6 @@
+<p>changer-color works!</p>
+<label>Chọn màu: </label>
+<input [value]="bgColor" type="color" (change)="onChange($event.target.value)">
+<p >Output</p>
+<div class="color-preview" [style.background]="bgColor"></div>
+

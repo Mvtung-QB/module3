@@ -50,6 +50,55 @@
       <change afterPath="$PROJECT_DIR$/../../baithimodule2/src/main/resources/templates/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../baithimodule2/src/main/resources/templates/new.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../baithimodule2/src/test/java/com/c0919g1/baithimodule2/Baithimodule2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoCucCoBan/BoCucCoBan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoCucCoBan/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoCucCoBan/girl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoCucCoBan/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoCucCoBan/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DocTruyen/.idea/DocTruyen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DocTruyen/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DocTruyen/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DocTruyen/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DocTruyen/image/bo-truong-cao-lanh-cung-chieu-vo-yeu-tan-troi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DocTruyen/image/boss-la-nu-phu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DocTruyen/image/choc-tuc-vo-yeu---mua-mot-tang-mot.1573456011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DocTruyen/image/nang-dau-cuc-pham.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DocTruyen/image/oc-ton-tam-gioi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DocTruyen/image/quy-e-cuong-the-ai-tieu-thu-an-choi-trac-tang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DocTruyen/image/sstruyen_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DocTruyen/image/tan-hon-khong-tinh-yeu-the-toi-vo-truoc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DocTruyen/image/yeu-sau-nang-e-thieu-am-tham-cung-chieu-vo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DocTruyen/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DocTruyen/style/Css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Grallery/.idea/Grallery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Grallery/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Grallery/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Grallery/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Grallery/Grallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Grallery/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Grallery/images/anh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Grallery/images/anh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Grallery/images/anh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Grallery/images/anh4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HamJQuery/JQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HamJQuery/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HieuUngJquery/HieuUngAnimate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JqueryUI/.idea/JqueryUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JqueryUI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JqueryUI/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JqueryUI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JqueryUI/JqueyrUI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LayOut/.idea/LayOut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LayOut/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LayOut/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LayOut/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LayOut/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LayOut/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LayOut/images/computer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LayOut/images/header-object.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LayOut/images/nen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LayOut/images/shoppingcart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LayOut/layout.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/PixedHeaderAndPixedFooter/Pixed.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/PixedHeaderAndPixedFooter/anh.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sevletmodule2/sevlet/Calculator/src/Caculator.java" afterDir="false" />
@@ -223,6 +272,14 @@
       <change afterPath="$PROJECT_DIR$/../../springcontroller/viewCount/src/main/java/com/example/view/model/MyCounter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../springcontroller/viewCount/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../module2" beforeDir="false" afterPath="$PROJECT_DIR$/../../module2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HieuUngJquery/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HieuUngJquery/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HieuUngJquery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HieuUngJquery/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JqueryUI/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JqueryUI/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JqueryUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JqueryUI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typescript/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../typescript/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typescript/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../typescript/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typescript/demo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../typescript/demo.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -234,11 +291,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PixedHeaderAndPixedFooter/Pixed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
+            <state relative-caret-position="799">
               <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
             </state>
           </provider>
@@ -254,7 +311,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -285,6 +342,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,12 +359,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../typescript" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -338,23 +396,19 @@
       <option name="presentableId" value="Default" />
       <updated>1576117173738</updated>
       <workItem from="1576117175951" duration="6600000" />
+      <workItem from="1576748050914" duration="46000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6600000" />
+    <option name="totallyTimeSpent" value="6646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -362,6 +416,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -373,7 +431,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/PixedHeaderAndPixedFooter/Pixed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
+        <state relative-caret-position="799">
           <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
         </state>
       </provider>

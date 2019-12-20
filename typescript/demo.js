@@ -25,4 +25,4 @@ var thMan = /** @class */ (function () {
 }());
 var myname = new thMan("tung", 27);
 console.log(myname.toString());
-console.log(son);
+console.log(son.name + son.age + son.run());

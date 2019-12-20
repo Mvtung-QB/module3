@@ -1,0 +1,18 @@
+<h2>Calculator</h2>
+
+<div>
+  <input type="number" [value]="number1" (change)="updateNumber1($event.target.value)">
+  <select [value]="operator" (change)="updateOperator($event.target.value)">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="X">X</option>
+      <option value="/">/</option>
+  </select>
+  <input type="number" [value]="number2" (change)="updateNumber2($event.target.value)">
+</div>
+<div>
+  <input type="submit" value="Tinh" (click)="action()" />
+</div>
+<p class="output">
+{{result}}
+</p>
