@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class CalculatorComponent implements OnInit {
   number1: number;
   number2: number;
-  operator: string;
+  operator = '+';
   result: number;
   constructor() { }
 
@@ -25,9 +25,14 @@ export class CalculatorComponent implements OnInit {
       default: this.result = null;
     }
   }
-
+  keypress(event) {
+    // tslint:disable-next-line:triple-equals
+    if (event.keyCode == 101) {
+      event.preventDefault();
+    }
+  }
   updateNumber1(number1) {
-    this.number1 = number1;
+      this.number1 = number1;
   }
 
   updateNumber2(number2) {
