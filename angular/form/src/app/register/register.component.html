@@ -1,0 +1,94 @@
+<h2 class="text-center">User registration</h2>
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="col-md-6 offset-md-3">
+  <div class="form-group row">
+    <label class="col">
+      Email
+      <input type="email" class="form-control" formControlName="email">
+      <div *ngFor=" let validation of validation_messages.email">
+        <div class="col alert text-danger" role="alert" *ngIf=" registerForm.get('email').hasError(validation.type) && registerForm.controls.email?.touched">
+          {{validation.message}}
+        </div>
+      </div>
+    </label>
+  </div>
+  <fieldset formGroupName="pwGroup">
+    <div class="form-group row">
+      <label class="col">
+        Password
+        <input type="password" class="form-control" formControlName="password">
+        <div *ngFor=" let validation of validation_messages.password">
+          <div class="col alert text-danger" role="alert" *ngIf=" registerForm.get('pwGroup.password').hasError(validation.type) && registerForm.get('pwGroup.password').touched">
+            {{validation.message}}
+          </div>
+        </div>
+      </label>
+    </div>
+    <div class="form-group row">
+      <label class="col">
+        Confirm Password
+        <input type="password" class="form-control" formControlName="confirmPassword">
+        <div *ngFor=" let validation of validation_messages.confirmPassword">
+          <div class="col alert text-danger" role="alert" *ngIf=" registerForm.get('pwGroup.confirmPassword').hasError(validation.type) && registerForm.get('pwGroup.confirmPassword').touched">
+            {{validation.message}}
+          </div>
+        </div>
+      </label>
+    </div>
+  </fieldset>
+  <div class="alert alert-danger" role="alert"
+       *ngIf="registerForm.hasError('passwordnotmatch', ['pwGroup']) &&
+      registerForm.get('pwGroup').touched">
+    Password does not match!
+  </div>
+  <div class="form-group row">
+    <label class="col">
+      Country
+      <input type="text" class="form-control" formControlName="country">
+      <div *ngFor=" let validation of validation_messages.country">
+        <div class="col alert text-danger" role="alert" *ngIf=" registerForm.get('country').hasError(validation.type) && registerForm.controls.country?.touched">
+          {{validation.message}}
+        </div>
+      </div>
+    </label>
+  </div>
+  <div class="form-group row">
+    <label class="col">
+      Age
+      <input type="number" class="form-control" formControlName="age">
+      <div *ngFor=" let validation of validation_messages.age">
+        <div class="col alert text-danger" role="alert" *ngIf=" registerForm.get('age').hasError(validation.type) && registerForm.controls.age?.touched">
+          {{validation.message}}
+        </div>
+      </div>
+    </label>
+  </div>
+  <div class="form-group row">
+    <label class="col">
+      Gender
+      <input type="text" class="form-control" formControlName="gender">
+      <div *ngFor=" let validation of validation_messages.gender">
+        <div class="col alert text-danger" role="alert" *ngIf=" registerForm.get('gender').hasError(validation.type) && registerForm.controls.gender?.touched">
+          {{validation.message}}
+        </div>
+      </div>
+    </label>
+  </div>
+  <div class="form-group row">
+    <label class="col">
+      Phone
+      <input type="number" class="form-control" formControlName="phone">
+      <div *ngFor=" let validation of validation_messages.phone">
+        <div class="col alert text-danger" role="alert" *ngIf=" registerForm.get('phone').hasError(validation.type) && registerForm.controls.phone?.touched">
+          {{validation.message}}
+        </div>
+      </div>
+    </label>
+  </div>
+  <div class="form-group">
+    <button class="btn btn-info" type="submit">Submit</button>
+  </div>
+</form>
+
+<pre>
+{{ registerForm.value | json}}
+</pre>
