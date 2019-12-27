@@ -1,0 +1,46 @@
+{
+  "customer": [
+    {
+      "id": 1,
+      "firstName": "json-server",
+      "lastName": "typicode"
+    },
+    {
+      "id": 2,
+      "firstName": "tung",
+      "lastName": "Tan"
+    },
+    {
+      "id": 4,
+      "firstName": "tung",
+      "lastName": "Tan"
+    },
+    {
+      "id": 5,
+      "firstName": "tung",
+      "lastName": "Tan"
+    },
+    {
+      "id": 6,
+      "firstName": "tung",
+      "lastName": "Tan"
+    },
+    {
+      "id": 8,
+      "firstName": "tung",
+      "lastName": "Tan"
+    },
+    {
+      "id": 9,
+      "firstName": "tung",
+      "lastName": "Tan"
+    }
+  ],
+  "employee": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "lastName": 1
+    }
+  ]
+}

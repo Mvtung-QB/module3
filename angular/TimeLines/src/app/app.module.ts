@@ -8,6 +8,15 @@ import { YoutubePlaylistComponent } from './youtube-playlist/youtube-playlist.co
 import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
 import { DictionaryDetailComponent } from './dictionary-detail/dictionary-detail.component';
 import { DictionaryPageComponent } from './dictionary-page/dictionary-page.component';
+import {DictionaryService} from './dictionary.service';
+import {ReactiveFormsModule} from '@angular/forms';
+import { BlogComponent } from './blog/blog/blog.component';
+import { BlogEditComponent } from './blog/blog-edit/blog-edit.component';
+import { BlogDetailComponent } from './blog/blog-detail/blog-detail.component';
+import {HttpClientModule} from '@angular/common/http';
+import { TodoComponent } from './todo/todo/todo.component';
+import { TodoDetailComponent } from './todo/todo-detail/todo-detail.component';
+import { TodoEditComponent } from './todo/todo-edit/todo-edit.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +25,21 @@ import { DictionaryPageComponent } from './dictionary-page/dictionary-page.compo
     YoutubePlaylistComponent,
     YoutubePlayerComponent,
     DictionaryDetailComponent,
-    DictionaryPageComponent
+    DictionaryPageComponent,
+    BlogComponent,
+    BlogEditComponent,
+    BlogDetailComponent,
+    TodoComponent,
+    TodoDetailComponent,
+    TodoEditComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [DictionaryService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

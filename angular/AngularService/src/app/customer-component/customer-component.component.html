@@ -1,0 +1,9 @@
+<p>customer-component works!</p>
+<table border="5">
+<tr *ngFor="let cus of listCustomer" >
+  <td>{{cus.id}} </td>
+  <td>   {{cus.firstName}} </td>
+  <td>    {{cus.lastName}}    </td>
+</tr>
+</table>
+<input type="button" value=" Them " (click)="createCutomer()" />
