@@ -1,0 +1,60 @@
+<div class="main-w3layouts wrapper">
+  <h1>Thêm Dịch Vụ</h1>
+  <div class="main-agileinfo">
+    <div class="agileits-top" >
+      <form [formGroup]="frRegiteNhanVien" (ngSubmit)="createService()" >
+        Mã Dịch Vụ:
+        <input class="text"  type="text" name="id" required="" formControlName="id">
+        <div *ngFor=" let validation of validation_messages.id">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('id').hasError(validation.type) && frRegiteNhanVien.controls.id?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        Tên Dịch Vụ:
+        <input class="text" type="text" name="tendichvu"   required="" formControlName="tendichvu">
+        <div *ngFor=" let validation of validation_messages.tendichvu">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('tendichvu').hasError(validation.type) && frRegiteNhanVien.controls.tendichvu?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        Diện Tích:
+        <input class="text" type="text" name="dientich" required="" formControlName="dientich">
+        <div *ngFor=" let validation of validation_messages.dientich">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('dientich').hasError(validation.type) && frRegiteNhanVien.controls.dientich?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        Số Tầng:
+        <input class="text" type="email" name="sotang"   required="" formControlName="sotang">
+        <div *ngFor=" let validation of validation_messages.sotang">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('sotang').hasError(validation.type) && frRegiteNhanVien.controls.sotang?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        Số Người Tối Đa:
+        <input class="text" type="text"  name="songuoitoida" required="" formControlName="songuoitoida">
+        <div *ngFor=" let validation of validation_messages.songuoitoida">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('songuoitoida').hasError(validation.type) && frRegiteNhanVien.controls.songuoitoida?.touched  && frRegiteNhanVien.controls.ngaysinh?.dirty">
+            {{validation.message}}
+          </div>
+        </div>
+        Chi Phí Thuê:
+        <input class="text" type="text" name="chiphithue"  required="" formControlName="chiphithue">
+        <div *ngFor=" let validation of validation_messages.chiphithue">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('chiphithue').hasError(validation.type) && frRegiteNhanVien.controls.chiphithue?.dirty ">
+            {{validation.message}}
+          </div>
+        </div>
+        Trạng Thái:
+        <input class="text" type="text"  required="" formControlName="trangthai">
+        <div *ngFor=" let validation of validation_messages.trangthai">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('trangthai').hasError(validation.type) && frRegiteNhanVien.controls.trangthai?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        <input type="submit" value="Thêm Ngay">
+      </form>
+    </div>
+  </div>
+
+</div>

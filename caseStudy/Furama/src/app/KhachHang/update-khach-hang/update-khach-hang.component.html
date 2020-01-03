@@ -1,0 +1,67 @@
+<div class="main-w3layouts wrapper">
+  <h1>Thông tin Khách Hàng</h1>
+  <div class="main-agileinfo">
+    <div class="agileits-top" >
+      <form [formGroup]="frRegiteNhanVien" (ngSubmit)=" updateKhachHang()" >
+        Mã Khách Hàng:
+        <input class="text"  type="text" name="id" [(ngModel)]="customer.id" required="" formControlName="id">
+        <div *ngFor=" let validation of validation_messages.id">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('id').hasError(validation.type) && frRegiteNhanVien.controls.id?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        ID Loại Khách:
+        <input class="text" type="text" name="idvitri" [(ngModel)]="customer.idloaikhach"  required="" formControlName="idloaikhach">
+        <div *ngFor=" let validation of validation_messages.idloaikhach">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('idloaikhach').hasError(validation.type) && frRegiteNhanVien.controls.idloaikhach?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        Ho Tên Khách Hàng:
+        <input class="text" type="text" name="hoten" [(ngModel)]="customer.hoten" required="" formControlName="hoten">
+        <div *ngFor=" let validation of validation_messages.hoten">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('hoten').hasError(validation.type) && frRegiteNhanVien.controls.hoten?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        Email:
+        <input class="text" type="email" name="email"  [(ngModel)]="customer.email" required="" formControlName="email">
+        <div *ngFor=" let validation of validation_messages.email">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('email').hasError(validation.type) && frRegiteNhanVien.controls.email?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        Ngày Sinh:
+        <input class="text" type="date"  name="ngaysinh" [(ngModel)]="customer.ngaysinh" required="" formControlName="ngaysinh">
+        <div *ngFor=" let validation of validation_messages.ngaysinh">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('ngaysinh').hasError(validation.type) && frRegiteNhanVien.controls.ngaysinh?.touched  && frRegiteNhanVien.controls.ngaysinh?.dirty">
+            {{validation.message}}
+          </div>
+        </div>
+        Số Điện Thoại:
+        <input class="text" type="text" name="sodt" [(ngModel)]="customer.sodt"  required="" formControlName="sodt">
+        <div *ngFor=" let validation of validation_messages.sodt">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('sodt').hasError(validation.type) && frRegiteNhanVien.controls.soDT?.dirty ">
+            {{validation.message}}
+          </div>
+        </div>
+        Số CMND
+        <input class="text" type="text"  name="cmnd" [(ngModel)]="customer.socmnd"  required="" formControlName="socmnd">
+        <div *ngFor=" let validation of validation_messages.socmnd">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('socmnd').hasError(validation.type) && frRegiteNhanVien.controls.socmnd?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        Địa Chỉ:
+        <input class="text" type="text" name="diachi" [(ngModel)]="customer.diachi" required="" formControlName="diachi">
+        <div *ngFor=" let validation of validation_messages.diachi">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('diachi').hasError(validation.type) && frRegiteNhanVien.controls.diachi?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        <input type="submit" value="Update">
+      </form>
+    </div>
+  </div>
+
+</div>

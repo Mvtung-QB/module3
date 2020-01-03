@@ -1,0 +1,261 @@
+{
+  "KhachHang": [
+    {
+      "idkhachhang": 1,
+      "idloaikhach": 1,
+      "hoten": "Mai Văn Tùng",
+      "ngaysinh": "20-11-1992",
+      "socmnd": 222222222,
+      "sodt": 999999999,
+      "email": "vantung246@gmail.com",
+      "Diachi": "Quảng Bình"
+    },
+    {
+      "idkhachhang": 2,
+      "idloaikhach": 2,
+      "hoten": "Nguyễn Văn Long",
+      "ngaysinh": "20-11-1992",
+      "socmnd": 222222222,
+      "sodt": 999999999,
+      "email": "vantung246@gmail.com",
+      "Diachi": "Quảng Bình"
+    },
+    {
+      "idkhachhang": 3,
+      "idloaikhach": 3,
+      "hoten": "Đào Khương",
+      "ngaysinh": "20-11-1992",
+      "socmnd": 222222222,
+      "sodt": 999999999,
+      "email": "vantung246@gmail.com",
+      "Diachi": "Quảng Bình"
+    },
+    {
+      "idkhachhang": 4,
+      "idloaikhach": 4,
+      "hoten": "Trần Nhân",
+      "ngaysinh": "20-11-1992",
+      "socmnd": 222222222,
+      "sodt": 999999999,
+      "email": "vantung246@gmail.com",
+      "Diachi": "Quảng Bình"
+    }
+  ],
+  "LoaiKhach": [
+    {
+      "idloaikhach": 1,
+      "tenloaikhach": "member"
+    },
+    {
+      "idloaikhach": 2,
+      "tenloaikhach": "diamon"
+    },
+    {
+      "idloaikhach": 3,
+      "tenloaikhach": "gold"
+    },
+    {
+      "idloaikhach": 4,
+      "tenloaikhach": "platinium"
+    },
+    {
+      "idloaikhach": 4,
+      "tenloaikhach": "silver"
+    }
+  ],
+  "NhaVien": [
+    {
+      "idnhanvien": 1,
+      "idvitri": 1,
+      "idtrinhdo": 1,
+      "idbophan": 1,
+      "hoten": "Mai Văn Tùng",
+      "ngaysinh": "20-11-1992",
+      "socmnd": 222222222,
+      "sodt": 999999999,
+      "email": "vantung246@gmail.com",
+      "diachi": "Quảng Bình",
+      "luong": 5000000
+    },
+    {
+      "idnhanvien": 2,
+      "idvitri": 2,
+      "idtrinhdo": 2,
+      "idbophan": 2,
+      "hoten": "Mai Văn Tùng",
+      "ngaysinh": "20-11-1992",
+      "socmnd": 222222222,
+      "sodt": 999999999,
+      "email": "vantung246@gmail.com",
+      "diachi": "Quảng Bình",
+      "luong": 5000000
+    },
+    {
+      "idnhanvien": 3,
+      "idvitri": 3,
+      "idtrinhdo": 3,
+      "idbophan": 3,
+      "hoten": "Mai Văn Tùng",
+      "ngaysinh": "20-11-1992",
+      "socmnd": 222222222,
+      "sodt": 999999999,
+      "email": "vantung246@gmail.com",
+      "diachi": "Quảng Bình",
+      "luong": 5000000
+    }
+  ],
+  "ViTri": [
+    {
+      "idvitri": 1,
+      "tenvitri": "Giám đôc"
+    },
+    {
+      "idvitri": 2,
+      "tenvitri": "Trưởng phòng"
+    },
+    {
+      "idvitri": 3,
+      "tenvitri": "Quản lý"
+    },
+    {
+      "idvitri": 4,
+      "tenvitri": "Nhân viên"
+    },
+    {
+      "idvitri": 5,
+      "tenvitri": "Bảo vệ"
+    }
+  ],
+  "TrinhDo": [
+    {
+      "idtrinhdo": 1,
+      "tentrinhdo": "Thạc Sỹ"
+    },
+    {
+      "idtrinhdo": 2,
+      "tentrinhdo": "Đại học"
+    },
+    {
+      "idtrinhdo": 3,
+      "tentrinhdo": "Cao đẳng"
+    },
+    {
+      "idtrinhdo": 4,
+      "tentrinhdo": "THPT"
+    },
+    {
+      "idtrinhdo": 5,
+      "tentrinhdo": "Lao động phổ thông"
+    }
+  ],
+  "BoPhan": [
+    {
+      "idbophan": 1,
+      "tenbophan": "Chăm Sóc Khách Hàng"
+    },
+    {
+      "idbophan": 2,
+      "tenbophan": "CEO"
+    },
+    {
+      "idbophan": 3,
+      "tenbophan": "Bảo Vệ"
+    },
+    {
+      "idbophan": 4,
+      "tenbophan": "Thuế"
+    }
+  ],
+  "DichVu": [
+    {
+      "iddichvu": 1,
+      "tendichvu": "Villa",
+      "dientich": "100 m2",
+      "sotang": 3,
+      "songuoitoida":15,
+      "chiphithue": 2000000,
+      "trangthai": "Trống"
+    },{
+      "iddichvu": 2,
+      "tendichvu": "House",
+      "dientich": "100m2",
+      "sotang": 1,
+      "songuoitoida": 5,
+      "chiphithue": 500000,
+      "trangthai": "Trống"
+    },{
+      "iddichvu": 3,
+      "tendichvu": "Room",
+      "dientich": "1000m2",
+      "sotang": "10",
+      "songuoitoida": 50,
+      "chiphithue": 100000,
+      "trangthai": "Trống"
+    },{
+      "iddichvu": 4,
+      "tendichvu": "My House",
+      "dientich": "200m2",
+      "sotang": 5,
+      "songuoitoida": 20,
+      "chiphithue": 2000000,
+      "trangthai": "trống"
+    }
+  ],
+  "DichVuDiKem": [
+    {
+      "iddichvudikem": 1,
+      "tendichvudikem": "Karaoke",
+      "gia":150000
+    },
+    {
+      "iddichvudikem": 2,
+      "tendichvudikem": "Massage",
+      "gia":150000
+    },{
+      "iddichvudikem": 3,
+      "tendichvudikem": "Chơi Game",
+      "gia":150000
+    }
+  ],
+  "HopDong": [
+    {
+      "idhopdong": 1,
+      "iddichvu": 1,
+      "ngaylamhopdong":"20-11-2019",
+      "ngayketthuc":"21-11-2019",
+      "tiendatcoc":200000
+    },
+    {
+      "idhopdong": 2,
+      "iddichvu": 2,
+      "ngaylamhopdong":"20-11-2019",
+      "ngayketthuc":"21-11-2019",
+      "tiendatcoc":200000
+    },{
+      "idhopdong": 3,
+      "iddichvu": 1,
+      "ngaylamhopdong":"20-11-2019",
+      "ngayketthuc":"21-11-2019",
+      "tiendatcoc":200000
+    }
+  ],
+  "HopDongChiTiet": [
+    {
+      "idhopdongchitiet": 1,
+      "idhopdong": 1,
+      "iddichvu": 1,
+      "soluong": 1
+    },
+    {
+      "idhopdongchitiet": 2,
+      "idhopdong": 2,
+      "iddichvu": 2,
+      "soluong": 3
+    },{
+      "idhopdongchitiet": 3,
+      "idhopdong": 3,
+      "iddichvu": 3,
+      "soluong": 1
+    }
+  ]
+}

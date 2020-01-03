@@ -1,0 +1,78 @@
+<div class="main-w3layouts wrapper">
+  <h1>Thêm Nhân Viên Mới</h1>
+  <div class="main-agileinfo">
+    <div class="agileits-top" >
+      <form [formGroup]="frRegiteNhanVien"  (ngSubmit)="createNhanVien()" >
+        <input class="text"  type="text" name="id" placeholder="ID nhân viên" required="" formControlName="id">
+        <div *ngFor=" let validation of validation_messages.id">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('id').hasError(validation.type) && frRegiteNhanVien.controls.id?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        <input class="text" type="text" name="idbophan" placeholder="ID Bộ Phận" required="" formControlName="idbophan">
+        <div *ngFor=" let validation of validation_messages.idbophan">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('idbophan').hasError(validation.type) && frRegiteNhanVien.controls.idbophan?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        <input class="text" type="text" name="idvitri" placeholder="ID Vị Trí" required="" formControlName="idvitri">
+        <div *ngFor=" let validation of validation_messages.idvitri">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('idvitri').hasError(validation.type) && frRegiteNhanVien.controls.idvitri?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        <input class="text" type="text" name="idtrinhdo" placeholder="ID Trình độ" required="" formControlName="idtrinhdo">
+        <div *ngFor=" let validation of validation_messages.idtrinhdo">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('idtrinhdo').hasError(validation.type) && frRegiteNhanVien.controls.idtrinhdo?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        <input class="text" type="text" name="hoten" placeholder="Họ Tên" required="" formControlName="hoten">
+        <div *ngFor=" let validation of validation_messages.hoten">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('hoten').hasError(validation.type) && frRegiteNhanVien.controls.hoten?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        <input class="text" type="email" name="email" placeholder="Email" required="" formControlName="email">
+        <div *ngFor=" let validation of validation_messages.email">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('email').hasError(validation.type) && frRegiteNhanVien.controls.email?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        Ngày Sinh:
+        <input class="text" type="date"  name="ngaysinh" placeholder=" Ngày Sinh" required="" formControlName="ngaysinh">
+        <div *ngFor=" let validation of validation_messages.ngaysinh">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('ngaysinh').hasError(validation.type) && frRegiteNhanVien.controls.ngaysinh?.touched  && frRegiteNhanVien.controls.ngaysinh?.dirty">
+            {{validation.message}}
+          </div>
+        </div>
+        <input class="text" type="text" name="sodt" placeholder="Số điện thoại" required="" formControlName="sodt">
+        <div *ngFor=" let validation of validation_messages.sodt">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('sodt').hasError(validation.type) && frRegiteNhanVien.controls.sodt?.touched && frRegiteNhanVien.controls.sodt?.dirty ">
+            {{validation.message}}
+          </div>
+        </div>
+        <input class="text" type="text" name="luong" placeholder="Lương" required="" formControlName="luong">
+        <div *ngFor=" let validation of validation_messages.luong">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('luong').hasError(validation.type) && frRegiteNhanVien.controls.luong?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        <input class="text" type="text"  name="cmnd" placeholder="Số CMND" required="" formControlName="socmnd">
+        <div *ngFor=" let validation of validation_messages.socmnd">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('socmnd').hasError(validation.type) && frRegiteNhanVien.controls.socmnd?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        <input class="text" type="text" name="diachi" placeholder="Địa chỉ" required="" formControlName="diachi">
+        <div *ngFor=" let validation of validation_messages.diachi">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('diachi').hasError(validation.type) && frRegiteNhanVien.controls.diachi?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        <input type="submit" value="Thêm Ngay">
+      </form>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,45 @@
+<div class="main-w3layouts wrapper">
+  <h1>Thêm Hợp Đồng Mới</h1>
+  <div class="main-agileinfo">
+    <div class="agileits-top" >
+      <form [formGroup]="frRegiteNhanVien"  (ngSubmit)="createHopDong()" >
+        <input class="text"  type="text" name="id" placeholder="ID Hợp Đồng (ex: HD-0001)" required="" formControlName="id">
+        <div *ngFor=" let validation of validation_messages.id">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('id').hasError(validation.type) && frRegiteNhanVien.controls.id?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        <div>
+        Chọn Khách Hàng:
+        <select formControlName = "khachhang"><option *ngFor="let cus of listKhachHang " [ngValue]="cus" >{{cus.hoten}}</option> </select>
+        </div>
+        <div>
+        Chọn Dịch Vụ:
+        <select formControlName = "dichvu"><option  *ngFor="let dv of listDichVu " [ngValue]="dv" >{{dv.tendichvu}} </option> </select>
+        </div>
+        Ngày Làm Hợp Đồng:
+        <input class="date" type="date" name="ngaylamhopdong" placeholder="Ngày Làm hợp Đồng" required="" formControlName="ngaylamhopdong">
+        <div *ngFor=" let validation of validation_messages.ngaylamhopdong">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('ngaylamhopdong').hasError(validation.type) && frRegiteNhanVien.controls.ngaylamhopdong?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        Ngày Kết thúc:
+        <input class="date" type="date" name="ngayketthuc" placeholder="Ngày Kết thúc" required="" formControlName="ngayketthuc">
+        <div *ngFor=" let validation of validation_messages.ngayketthuc">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('ngayketthuc').hasError(validation.type) && frRegiteNhanVien.controls.ngayketthuc?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        <input class="text" type="text" name="tiendatcoc" placeholder="Tiền Đặt Cọc" required="" formControlName="tiendatcoc">
+        <div *ngFor=" let validation of validation_messages.tiendatcoc">
+          <div class="col alert text-danger" role="alert" *ngIf=" frRegiteNhanVien.get('tiendatcoc').hasError(validation.type) && frRegiteNhanVien.controls.tiendatcoc?.touched">
+            {{validation.message}}
+          </div>
+        </div>
+        <input type="submit" value="Thêm Ngay">
+      </form>
+    </div>
+  </div>
+
+</div>

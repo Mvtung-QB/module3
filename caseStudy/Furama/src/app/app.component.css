@@ -1,0 +1,82 @@
+
+.menu,.menu ul,.menu li,.menu a{
+  border:none;outline:none;margin:0;
+  padding:0;z-index:999
+}
+.menu{
+  height:40px;width:100%; background-color: #76b852;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#555), to(#222));
+  background-image: -webkit-linear-gradient(top, #555, #222);
+  background-image: -moz-linear-gradient(top, #555, #222);
+  background-image: -ms-linear-gradient(top, #555, #222);
+  background-image: -o-linear-gradient(top, #555, #222);
+  background-image: linear-gradient(top, #555, #222);
+  -moz-box-shadow: 0 5px 5px #000;
+  -webkit-box-shadow: 0 5px 5px #000;
+  box-shadow: 0 5px 5px #000;
+}
+.menu li{
+  position:relative;list-style:none;
+  float:left;display:block;height:40px
+}
+.menu li a{
+  background:url(http://4.bp.blogspot.com/-n7OkwgMuP7Q/UQs19HkuUsI/AAAAAAAABiQ/k3qWwdmqgfQ/s1600/bagi.gif) no-repeat top right;
+  display:block;
+  text-decoration:none;font-family:Arial;font-weight:700;
+  font-size:14px;color:#ddd;
+  text-shadow:1px 1px 1px #000;
+  -webkit-transition:color .2s ease-in-out;
+  -moz-transition:color .2s ease-in-out;
+  -o-transition:color .2s ease-in-out;-ms-transition:color.2s ease-in-out;transition:color .2s ease-in-out;margin:0;
+  padding:12px 14px  12px
+}
+.menu li:first-child a{
+  padding:10px 10px 7px
+}
+.menu li:hover > a{color:#48d}
+.menu ul{
+  position:absolute;top:41px;
+  left:0;opacity:0;
+  background:#fdfdfd url(http://4.bp.blogspot.com/-mlmoMuUf48g/UQu3dezXeFI/AAAAAAAABpE/cDDiKShrEu0/s1600/menuhover.png)
+  repeat-x top;
+  -webkit-border-radius:0 0 5px 5px;
+  -moz-border-radius:0 0 5px 5px;
+  border-radius:0 0 5px 5px;
+  /*border:1px solid #666;*/
+  border-top:none;
+  -webkit-transition:opacity .25s ease .1s;
+  -moz-transition:opacity .25s ease .1s;
+  -o-transition:opacity .25s ease .1s;
+  -ms-transition:opacity .25s ease .1s;
+  transition:opacity .25s ease .1s
+}
+.menu li:hover > ul{opacity:1}
+.menu ul li{
+  height:0;overflow:hidden;
+  -webkit-transition:height .25s ease .1s;
+  -moz-transition:height .25s ease .1s;
+  -o-transition:height .25s ease .1s;
+  -ms-transition:height .25s ease .1s;
+  transition:height .25s ease .1s;padding:0
+}
+.menu li:hover > ul li{
+  height:36px;
+  overflow:visible;
+  padding:0
+}
+.menu ul li a{
+  color:#111;font-weight:400;
+  width:100px;margin:0;
+  padding:10px 0 10px 30px;
+  text-shadow:none
+}
+.menu ul li:first-child a{
+  padding:10px 14px  10px 30px
+}
+.menu ul li:last-child a{
+  border:none
+}
+.menu a.trigger{
+  background:url(http://3.bp.blogspot.com/-pJAQN5knuO8/UQre-F12FjI/AAAAAAAABgs/6WarLD7FwNw/s1600/arrow.png)
+  no-repeat 1px
+}

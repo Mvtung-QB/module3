@@ -1,0 +1,18 @@
+<div class="main-w3layouts wrapper">
+  <h1>Thông tin Khách Hàng</h1>
+  <div class="main-agileinfo">
+    <div class="agileits-top">
+      <form (ngSubmit)="deleteKhachHang()">
+        <label>Mã Khách Hàng: {{khachHang.id}}</label><br>
+        <label>Tên Khách Hàng:</label> {{khachHang.hoten}}<br>
+        <label>Ngày Sinh:</label> {{khachHang.ngaysinh}}<br>
+        <label>Emai :</label> {{khachHang.email}}<br>
+        <label>Số Điện Thoại :</label> {{khachHang.sodt}}<br>
+        <label>ID Loại Khách:</label> {{khachHang.idloaikhach}}<br>
+        <label>Địa Chỉ:</label> {{khachHang.diachi}}<br>
+        <label>CMNd:</label> {{khachHang.socmnd}}<br>
+        <input type="submit" value="Xóa ngay" />
+      </form>
+    </div>
+  </div>
+</div>

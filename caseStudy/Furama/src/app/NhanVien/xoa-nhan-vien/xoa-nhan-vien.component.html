@@ -1,0 +1,19 @@
+<div class="main-w3layouts wrapper">
+  <h1>Thông tin Nhân Viên</h1>
+  <div class="main-agileinfo">
+    <div class="agileits-top">
+      <form (ngSubmit)="deleteNhanVien()">
+        <label>Mã nhân viên: {{nhanVien.id}}</label><br>
+        <label>Tên nhân viên:</label> {{nhanVien.hoten}}<br>
+        <label>Ngày Sinh:</label> {{nhanVien.ngaysinh}}<br>
+        <label>Emai nhân viên:</label> {{nhanVien.email}}<br>
+        <label>ID BỘ Phận:</label> {{nhanVien.idbophan}}<br>
+        <label>Địa Chỉ:</label> {{nhanVien.diachi}}<br>
+        <label>Lương:</label> {{nhanVien.luong}}<br>
+        <label>ID Vị Trí:</label> {{nhanVien.idvitri}}<br>
+        <label>CMNd:</label> {{nhanVien.socmnd}}<br>
+        <input type="submit" value="Xóa ngay" />
+      </form>
+      </div>
+  </div>
+</div>

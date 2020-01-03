@@ -1,0 +1,15 @@
+import {DichVu} from '../../DichVu/model/dichvu';
+import {Khachhang} from '../../KhachHang/model/Khachhang';
+
+export class Booking {
+  id: string;
+  dichvu: DichVu[];
+
+  khachhang: Khachhang;
+
+  constructor(dichVu: array<DichVu>, khachHang, id) {
+    this.dichvu = dichVu;
+    this.khachhang = khachHang;
+    this.id = id;
+  }
+}

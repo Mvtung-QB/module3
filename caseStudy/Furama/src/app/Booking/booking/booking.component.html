@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <input type="text" name="keyword" [(ngModel)]="keyword" placeholder="Seach" />
+    </div>
+  </div>
+<table class="table table-striped">
+  <thead>
+  <tr><th>ID Booking</th><th>Tên KH</th><th>ID Loại Khách</th><th>Số ĐT</th><th>Dịch Vụ Đã Book</th><th>Action</th></tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let cus of listBooking |  filter: keyword |paginate: { itemsPerPage: 2, currentPage: p }" >
+    <td>{{cus.id}} </td>
+    <td>{{cus.khachhang.hoten}}</td>
+    <td>{{cus.khachhang.idloaikhach}}</td>
+    <td>{{cus.khachhang.sodt}}</td>
+    <td>
+      <table>
+        <tr><th>Tên DV</th><th>Diện tích</th><th>Chi Phí</th><th>Trạng Thái</th></tr>
+        <tr *ngFor="let i of cus.dichvu">
+          <td>{{i.tendichvu}}</td>
+          <td>{{i.dientich}}</td>
+          <td>{{i.chiphithue}}</td>
+          <td>{{i.trangthai}}</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <input type="button" value="Xóa" (click)="isShowForm=true">
+<!--      <input type="button" value="Sửa" (click)="gotoDetail(cus.id)">-->
+    </td>
+
+  </tr>
+  </tbody>
+</table>
+<pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>
+

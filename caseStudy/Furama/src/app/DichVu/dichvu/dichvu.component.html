@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <input type="text" name="keyword" [(ngModel)]="keyword" placeholder="Seach" />
+    </div>
+  </div>
+  <table class="table table-striped">
+    <thead>
+    <tr><th>ID Dịch Vụ</th><th>Tên DV</th><th>Diên tích(m2)</th><th>Số tầng</th><th>Số người Tối Đa</th><th>Chi Phí thuê</th><th>Trạng Thái</th><th>Action</th></tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let cus of listDichVu |  filter: keyword |paginate: { itemsPerPage: 2, currentPage: p }" >
+      <td>{{cus.id}} </td>
+      <td>{{cus.tendichvu}}</td>
+      <td>{{cus.dientich}}</td>
+      <td>{{cus.sotang}}</td>
+      <td>{{cus.songuoitoida}}</td>
+      <td>{{cus.chiphithue}}</td>
+      <td>{{cus.trangthai}}</td>
+      <td>
+        <input type="button" value="Xóa" (click)="gotoUpdate(cus.id)">
+        <input type="button" value="Sửa" (click)="gotoDetail(cus.id)"></td>
+    </tr>
+
+    </tbody>
+  </table>
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

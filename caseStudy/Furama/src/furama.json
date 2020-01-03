@@ -1,0 +1,446 @@
+{
+  "KhachHang": [
+    {
+      "id": "KH-0041",
+      "idloaikhach": "2",
+      "hoten": "Anh Khoa Nguyen",
+      "email": "shane92mai@gmail.com",
+      "ngaysinh": "12/11/1992",
+      "sodt": "+84905125421",
+      "diachi": "Quảng Bình",
+      "socmnd": "025412541211"
+    },
+    {
+      "id": "KH-0045",
+      "idloaikhach": "2",
+      "hoten": "Mai Văn Tùng",
+      "email": "shane92mai@gmail.com",
+      "ngaysinh": "12/11/1992",
+      "sodt": "0901999999",
+      "diachi": "Quảng Bình",
+      "socmnd": "025412541211"
+    },
+    {
+      "id": "KH-1111",
+      "idloaikhach": "2",
+      "hoten": "Mai Văn Tùng",
+      "email": "admin@gmail.com",
+      "ngaysinh": "20/11/1992",
+      "sodt": "0901999999",
+      "diachi": "Quảng Bình",
+      "socmnd": "111111111"
+    },
+    {
+      "id": "KH-1212",
+      "idloaikhach": "1",
+      "hoten": "Nguyễn Văn Long",
+      "email": "vanLog246@gmail.com",
+      "ngaysinh": "20/11/1992",
+      "sodt": "+84905125421",
+      "diachi": "Quảng Bình",
+      "socmnd": "025412541211"
+    },
+    {
+      "id": "KH-1210",
+      "idloaikhach": "3",
+      "hoten": "Anh",
+      "email": "admin@gmail.com",
+      "ngaysinh": "20/11/1992",
+      "sodt": "0901999999",
+      "diachi": "Quảng Bình",
+      "socmnd": "025412541211"
+    }
+  ],
+  "LoaiKhach": [
+    {
+      "id": 1,
+      "tenloaikhach": "member"
+    },
+    {
+      "id": 2,
+      "tenloaikhach": "diamon"
+    },
+    {
+      "id": 3,
+      "tenloaikhach": "gold"
+    },
+    {
+      "id": 4,
+      "tenloaikhach": "platinium"
+    },
+    {
+      "id": 4,
+      "tenloaikhach": "silver"
+    }
+  ],
+  "NhanVien": [
+    {
+      "id": "NV-004",
+      "idbophan": "1",
+      "idvitri": "2",
+      "idtrinhdo": "2",
+      "hoten": "Anh Khoa Van",
+      "email": "admin@gmail.com",
+      "ngaysinh": "20/11/1992",
+      "sodt": "999999999",
+      "luong": "500000",
+      "diachi": "Quảng Bình",
+      "socmnd": "111222111"
+    },
+    {
+      "id": "NV-003",
+      "idbophan": "1",
+      "idvitri": "1",
+      "idtrinhdo": "3",
+      "hoten": "Anh Khoa Nguyen",
+      "email": "shane92mai@gmail.com",
+      "ngaysinh": "20/11/1992",
+      "sodt": "999999999",
+      "luong": "5000000",
+      "diachi": "Quảng Bình",
+      "socmnd": "333333333"
+    }
+  ],
+  "ViTri": [
+    {
+      "id": 1,
+      "tenvitri": "Giám đôc"
+    },
+    {
+      "id": 2,
+      "tenvitri": "Trưởng phòng"
+    },
+    {
+      "id": 3,
+      "tenvitri": "Quản lý"
+    },
+    {
+      "id": 4,
+      "tenvitri": "Nhân viên"
+    },
+    {
+      "id": 5,
+      "tenvitri": "Bảo vệ"
+    }
+  ],
+  "TrinhDo": [
+    {
+      "id": 1,
+      "tentrinhdo": "Thạc Sỹ"
+    },
+    {
+      "id": 2,
+      "tentrinhdo": "Đại học"
+    },
+    {
+      "id": 3,
+      "tentrinhdo": "Cao đẳng"
+    },
+    {
+      "id": 4,
+      "tentrinhdo": "THPT"
+    },
+    {
+      "id": 5,
+      "tentrinhdo": "Lao động phổ thông"
+    }
+  ],
+  "BoPhan": [
+    {
+      "id": 1,
+      "tenbophan": "Chăm Sóc Khách Hàng"
+    },
+    {
+      "id": 2,
+      "tenbophan": "CEO"
+    },
+    {
+      "id": 3,
+      "tenbophan": "Bảo Vệ"
+    },
+    {
+      "id": 4,
+      "tenbophan": "Thuế"
+    }
+  ],
+  "DichVu": [
+    {
+      "id": "DV-001",
+      "tendichvu": "Villa",
+      "dientich": 100,
+      "sotang": 3,
+      "songuoitoida": 15,
+      "chiphithue": 2000000,
+      "trangthai": "Trống"
+    },
+    {
+      "id": "DV-002",
+      "tendichvu": "House",
+      "dientich": 100,
+      "sotang": 1,
+      "songuoitoida": 5,
+      "chiphithue": 500000,
+      "trangthai": "Trống"
+    },
+    {
+      "id": "DV-003",
+      "tendichvu": "Room",
+      "dientich": 1000,
+      "sotang": 5,
+      "songuoitoida": 50,
+      "chiphithue": 100000,
+      "trangthai": "Trống"
+    },
+    {
+      "id": "DV-111",
+      "tendichvu": "My Service",
+      "dientich": "122",
+      "sotang": "11",
+      "songuoitoida": "23",
+      "chiphithue": "2000000",
+      "trangthai": "Trống"
+    }
+  ],
+  "DichVuDiKem": [
+    {
+      "id": 1,
+      "tendichvudikem": "Karaoke",
+      "gia": 150000
+    },
+    {
+      "id": 2,
+      "tendichvudikem": "Massage",
+      "gia": 150000
+    },
+    {
+      "id": 3,
+      "tendichvudikem": "Chơi Game",
+      "gia": 150000
+    }
+  ],
+  "HopDong": [
+    {
+      "id": "HD-0001",
+      "khachhang": {
+        "id": "KH-0041",
+        "idloaikhach": "2",
+        "hoten": "Anh Khoa Nguyen",
+        "email": "shane92mai@gmail.com",
+        "ngaysinh": "12/11/1992",
+        "sodt": "+84905125421",
+        "diachi": "Quảng Bình",
+        "socmnd": "025412541211"
+      },
+      "dichvu": {
+        "id": "DV-002",
+        "tendichvu": "House",
+        "dientich": 100,
+        "sotang": 1,
+        "songuoitoida": 5,
+        "chiphithue": 500000,
+        "trangthai": "Trống"
+      },
+      "ngaylamhopdong": "20/11/2019",
+      "ngayketthuc": "21-11-2019",
+      "tiendatcoc": 200000
+    },
+    {
+      "id": "HD-0002",
+      "khachhang": {
+        "id": "KH-0045",
+        "idloaikhach": "2",
+        "hoten": "Mai Văn Tùng",
+        "email": "shane92mai@gmail.com",
+        "ngaysinh": "12/11/1992",
+        "sodt": "0901999999",
+        "diachi": "Quảng Bình",
+        "socmnd": "025412541211"
+      },
+      "dichvu": {
+        "id": "DV-001",
+        "tendichvu": "Villa",
+        "dientich": 100,
+        "sotang": 3,
+        "songuoitoida": 15,
+        "chiphithue": 2000000,
+        "trangthai": "Trống"
+      },
+      "ngaylamhopdong": "20-11-2019",
+      "ngayketthuc": "21-11-2019",
+      "tiendatcoc": 200000
+    },
+    {
+      "id": "HD-0003",
+      "khachhang": {
+        "id": "KH-1111",
+        "idloaikhach": "2",
+        "hoten": "Mai Tùng",
+        "email": "admin@gmail.com",
+        "ngaysinh": "20/11/1992",
+        "sodt": "0901999999",
+        "diachi": "Quảng Bình",
+        "socmnd": "111111111"
+      },
+      "dichvu": {
+        "id": "DV-002",
+        "tendichvu": "House",
+        "dientich": 100,
+        "sotang": 1,
+        "songuoitoida": 5,
+        "chiphithue": 500000,
+        "trangthai": "Trống"
+      },
+      "ngaylamhopdong": "20-11-2019",
+      "ngayketthuc": "21-11-2019",
+      "tiendatcoc": 200000
+    },
+    {
+      "id": "HD-0101",
+      "khachhang": {
+        "id": "KH-1212",
+        "idloaikhach": "1",
+        "hoten": "Nguyễn Văn Long",
+        "email": "vanLog246@gmail.com",
+        "ngaysinh": "20/11/1992",
+        "sodt": "+84905125421",
+        "diachi": "Quảng Bình",
+        "socmnd": "025412541211"
+      },
+      "dichvu": {
+        "id": "DV-002",
+        "tendichvu": "House",
+        "dientich": 100,
+        "sotang": 1,
+        "songuoitoida": 5,
+        "chiphithue": 500000,
+        "trangthai": "Trống"
+      },
+      "ngaylamhopdong": "11/11/2001",
+      "ngayketthuc": "11/11/2001",
+      "tiendatcoc": "2000000"
+    },
+    {
+      "id": "HD-1121",
+      "khachhang": {
+        "id": "KH-0041",
+        "idloaikhach": "2",
+        "hoten": "Anh Khoa Nguyen",
+        "email": "shane92mai@gmail.com",
+        "ngaysinh": "12/11/1992",
+        "sodt": "+84905125421",
+        "diachi": "Quảng Bình",
+        "socmnd": "025412541211"
+      },
+      "dichvu": {
+        "id": "DV-003",
+        "tendichvu": "Room",
+        "dientich": 1000,
+        "sotang": 5,
+        "songuoitoida": 50,
+        "chiphithue": 100000,
+        "trangthai": "Trống"
+      },
+      "ngaylamhopdong": "11/11/2001",
+      "ngayketthuc": "11/11/2001",
+      "tiendatcoc": "2000000"
+    },
+    {
+      "id": "HD-5555",
+      "ngaylamhopdong": "11/11/2001",
+      "ngayketthuc": "12/11/2019",
+      "tiendatcoc": "2000000",
+      "khachhang": {
+        "id": "KH-1212",
+        "idloaikhach": "1",
+        "hoten": "Nguyễn Văn Long",
+        "email": "vanLog246@gmail.com",
+        "ngaysinh": "20/11/1992",
+        "sodt": "+84905125421",
+        "diachi": "Quảng Bình",
+        "socmnd": "025412541211"
+      },
+      "dichvu": {
+        "id": "DV-002",
+        "tendichvu": "House",
+        "dientich": 100,
+        "sotang": 1,
+        "songuoitoida": 5,
+        "chiphithue": 500000,
+        "trangthai": "Trống"
+      }
+    }
+  ],
+  "HopDongChiTiet": [
+    {
+      "id": 1,
+      "idhopdong": 1,
+      "iddichvu": 1,
+      "soluong": 1
+    },
+    {
+      "id": 2,
+      "idhopdong": 2,
+      "iddichvu": 2,
+      "soluong": 3
+    },
+    {
+      "id": 3,
+      "idhopdong": 3,
+      "iddichvu": 3,
+      "soluong": 1
+    }
+  ],
+  "Booking": [
+    {
+      "id": 1,
+      "dichvu": [
+        {
+          "id": "DV-001",
+          "tendichvu": "Villa",
+          "dientich": 100,
+          "sotang": 3,
+          "songuoitoida": 15,
+          "chiphithue": 2000000,
+          "trangthai": "Trống"
+        },
+        {
+          "id": "DV-002",
+          "tendichvu": "House",
+          "dientich": 100,
+          "sotang": 1,
+          "songuoitoida": 5,
+          "chiphithue": 500000,
+          "trangthai": "Trống"
+        },
+        {
+          "id": "DV-003",
+          "tendichvu": "Room",
+          "dientich": 1000,
+          "sotang": 5,
+          "songuoitoida": 50,
+          "chiphithue": 100000,
+          "trangthai": "Trống"
+        },
+        {
+          "id": "DV-111",
+          "tendichvu": "My Service",
+          "dientich": "122",
+          "sotang": "11",
+          "songuoitoida": "23",
+          "chiphithue": "2000000",
+          "trangthai": "Trống"
+        }
+      ],
+      "khachhang": {
+        "id": "KH-0041",
+        "idloaikhach": "2",
+        "hoten": "Anh Khoa Nguyen",
+        "email": "shane92mai@gmail.com",
+        "ngaysinh": "12/11/1992",
+        "sodt": "+84905125421",
+        "diachi": "Quảng Bình",
+        "socmnd": "025412541211"
+      }
+    }
+  ]
+}
