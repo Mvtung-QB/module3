@@ -240,8 +240,8 @@
         "chiphithue": 500000,
         "trangthai": "Trống"
       },
-      "ngaylamhopdong": "20/11/2019",
-      "ngayketthuc": "21-11-2019",
+      "ngaylamhopdong": "2018-01-07",
+      "ngayketthuc": "2018-01-19",
       "tiendatcoc": 200000
     },
     {
@@ -265,8 +265,8 @@
         "chiphithue": 2000000,
         "trangthai": "Trống"
       },
-      "ngaylamhopdong": "20-11-2019",
-      "ngayketthuc": "21-11-2019",
+      "ngaylamhopdong": "2018-01-05",
+      "ngayketthuc": "2018-01-07",
       "tiendatcoc": 200000
     },
     {
@@ -290,8 +290,8 @@
         "chiphithue": 500000,
         "trangthai": "Trống"
       },
-      "ngaylamhopdong": "20-11-2019",
-      "ngayketthuc": "21-11-2019",
+      "ngaylamhopdong": "2018-01-07",
+      "ngayketthuc": "2018-01-10",
       "tiendatcoc": 200000
     },
     {
@@ -315,8 +315,8 @@
         "chiphithue": 500000,
         "trangthai": "Trống"
       },
-      "ngaylamhopdong": "11/11/2001",
-      "ngayketthuc": "11/11/2001",
+      "ngaylamhopdong": "2018-01-07",
+      "ngayketthuc": "2018-01-15",
       "tiendatcoc": "2000000"
     },
     {
@@ -340,14 +340,14 @@
         "chiphithue": 100000,
         "trangthai": "Trống"
       },
-      "ngaylamhopdong": "11/11/2001",
-      "ngayketthuc": "11/11/2001",
+      "ngaylamhopdong": "2018-01-07",
+      "ngayketthuc": "2018-01-08",
       "tiendatcoc": "2000000"
     },
     {
       "id": "HD-5555",
-      "ngaylamhopdong": "11/11/2001",
-      "ngayketthuc": "12/11/2019",
+      "ngaylamhopdong": "2018-01-07",
+      "ngayketthuc": "2018-01-09",
       "tiendatcoc": "2000000",
       "khachhang": {
         "id": "KH-1212",
@@ -366,6 +366,31 @@
         "sotang": 1,
         "songuoitoida": 5,
         "chiphithue": 500000,
+        "trangthai": "Trống"
+      }
+    },
+    {
+      "id": "HD-5551",
+      "ngaylamhopdong": "2019-01-01",
+      "ngayketthuc": "2019-01-03",
+      "tiendatcoc": "200000",
+      "khachhang": {
+        "id": "KH-1111",
+        "idloaikhach": "2",
+        "hoten": "Mai Văn Tùng",
+        "email": "admin@gmail.com",
+        "ngaysinh": "20/11/1992",
+        "sodt": "0901999999",
+        "diachi": "Quảng Bình",
+        "socmnd": "111111111"
+      },
+      "dichvu": {
+        "id": "DV-003",
+        "tendichvu": "Room",
+        "dientich": 1000,
+        "sotang": 5,
+        "songuoitoida": 50,
+        "chiphithue": 100000,
         "trangthai": "Trống"
       }
     }

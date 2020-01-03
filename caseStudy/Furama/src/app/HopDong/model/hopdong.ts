@@ -3,8 +3,8 @@ import {Khachhang} from '../../KhachHang/model/Khachhang';
 
 export class HopDong {
   id: string;
-  ngaylamhopdong: string;
-  ngayketthuc: string;
+  ngaylamhopdong: Date;
+  ngayketthuc: Date;
   tiendatcoc: number;
   dichvu: DichVu;
   khachhang: Khachhang;

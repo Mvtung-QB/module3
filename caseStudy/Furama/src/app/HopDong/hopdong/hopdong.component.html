@@ -6,7 +6,7 @@
   </div>
   <table class="table table-striped">
     <thead>
-    <tr><th>ID Hợp Đồng</th><th>Tên KH</th><th>Tên DV</th><th>Ngày Làm Hợp Đồng</th><th>Ngày Kết thúc</th><th>Tiền Cọc</th><th>Action</th></tr>
+    <tr><th>ID Hợp Đồng</th><th>Tên KH</th><th>Tên DV</th><th>Ngày Làm Hợp Đồng</th><th>Ngày Kết thúc</th><th>Tiền Cọc</th><th>Tổng tiền</th><th>Action</th></tr>
     </thead>
     <tbody>
     <tr *ngFor="let cus of listHopDong |  filter: keyword |paginate: { itemsPerPage: 2, currentPage: p }" >
@@ -16,10 +16,10 @@
       <td>{{cus.ngaylamhopdong}}</td>
       <td>{{cus.ngayketthuc}}</td>
       <td>{{cus.tiendatcoc}}</td>
+      <td>{{getCount(cus.id)}}</td>
       <td>
         <input type="button" value="Xóa" (click)="gotoUpdate(cus.id)">
     </tr>
-
     </tbody>
   </table>
   <pagination-controls (pageChange)="p = $event"></pagination-controls>
